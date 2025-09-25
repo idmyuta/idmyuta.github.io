@@ -1,0 +1,129 @@
+:root {
+    --content-width: 250px;
+    --content-foto-height: 100px;
+}
+
+::selection {
+    background-color: rgb(132, 255, 214);
+}
+
+.title {
+    margin: auto;
+    padding: 100px 70px;
+}
+
+h1.mainTitle {
+    font-size: 100px;
+    font-family: "Zen Old Mincho", serif;
+    margin: 0;
+}
+
+h1.subTitle {
+    font-size: 70px;
+    font-family: "Zen Old Mincho", serif;
+    margin: 0;
+}
+
+.subTitleSection {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 0;
+    font-size: 23px;
+}
+
+.section-more {
+    font-size: 20px;
+}
+
+.section-title {
+    padding: 0 10px;
+}
+
+div.content img {
+    width: var(--content-width);
+    height: var(--content-foto-height);
+    object-fit: cover;
+    object-position: 100% 50%;
+    border-radius: 10px 10px 0 0;
+}
+
+img.contentImg {
+    width: var(--content-width);
+    height: var(--content-foto-height);
+    object-fit: cover;
+    object-position: 100% 30%;
+
+}
+
+p.content-explain-title {
+    margin: 0;
+    line-height: 20px;
+    padding: 0 10px 10px;
+    font-size: 18px;
+}
+
+.content-explain {
+    margin: 0;
+    line-height: 20px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.content {
+    width: var(--content-width);
+    height: 230px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 0 0 5px rgb(107, 107, 107);
+}
+
+.section-content {
+    margin: auto;
+    justify-content: center;
+    gap: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a div.content {
+    display: block;
+}
+
+.subTitleSection {
+    display: flex;
+}
+
+.menu-test {
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    gap: 30px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.menu-sec {
+    justify-content: space-between;
+}
+
+.my-icon {
+    padding-top: 20px;
+    font-size: 2px;
+}
+
+.random-content-container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+i.link {
+    font-size: 10px;
+    padding-left: 5px;
+}
