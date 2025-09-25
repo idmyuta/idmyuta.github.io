@@ -1,0 +1,216 @@
+* {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+
+span {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.login-btn,
+a.login-btn,
+button.login-btn {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #212529;
+    border-radius: 0.5rem;
+}
+
+a.login-btn-border {
+    margin-bottom: 12px;
+    padding: 0;
+
+    -webkit-transition: all 0.3s;
+
+    transition: all 0.3s;
+
+    border-radius: 0;
+}
+
+a.login-btn-border span {
+    position: relative;
+
+    display: block;
+
+    padding: 15px 30px;
+
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+a.login-btn-border:before {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+
+    display: block;
+
+    width: calc(100% - 4px);
+    height: 14px;
+
+    content: "";
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+
+    border: 2px solid #000;
+    border-top: 1px solid #000;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-image: -webkit-repeating-linear-gradient(135deg,
+            #000,
+            #000 1px,
+            transparent 2px,
+            transparent 5px);
+    background-image: repeating-linear-gradient(-45deg,
+            #000,
+            #000 1px,
+            transparent 2px,
+            transparent 5px);
+    background-size: 7px 7px;
+
+    -webkit-backface-visibility: hidden;
+
+    backface-visibility: hidden;
+}
+
+a.login-btn-border:hover {
+    -webkit-transform: translate(0, 3px);
+    transform: translate(0, 3px);
+}
+
+a.login-btn-border:hover:before {
+    bottom: -5px;
+}
+
+a.login-btn-border:active {
+    -webkit-transform: translate(0, 7px);
+    transform: translate(0, 7px);
+}
+
+a.login-btn-border:active:before {
+    bottom: -1px;
+}
+
+a {
+    color: black;
+    margin: 0;
+}
+
+li.menu-deco a {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+li.menu-deco a::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(67, 67, 67);
+    transition: all 0.3s ease;
+}
+
+
+li.menu-deco a:hover::after {
+    width: 70%;
+}
+
+li.menu-deco {
+    list-style: none;
+}
+
+.header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.head-logo {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-deco {
+    font-size: 20px;
+}
+
+/* ーーーーーーーーーーーーーーーーここから個別の内容ーーーーーーーーーーーーーー */
+
+
+
+
+
+
+/* ーーーーーーーーーーーーーーーーここまで個別の内容ーーーーーーーーーーーーーー */
+
+footer.footer {
+    padding-top: 200px;
+}
+
+section.footer-menu {
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 40px;
+}
+
+.footer-section {
+    display: flex;
+}
+
+nav.footer-menu {
+    padding: 0 40px;
+}
+
+.footer-menu-explain {
+    display: flex;
+}
+
+li.footer-menu-explain-ex {
+    list-style: none;
+}
+
+.footer-right {
+    font-family: "Josefin Sans", sans-serif;
+
+    margin: auto;
+    text-align: center;
+}
